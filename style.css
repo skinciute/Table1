@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+table {
+    border-collapse: collapse;
+    border: 1px solid hsl(45deg 99% 51%);
+    margin: auto;
+    width: 700px;
+    font-family: montserrat;
+}
+th {
+    text-align: center;
+    padding: 20px;
+    
+    border: 1px solid hsl(45deg 99% 51%);
+    background: hsl(45deg 99% 51%);
+    color: black
+}
+td {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid hsl(45deg 99% 51%);
+    background: hsl(251deg 43% 30%);
+    color: white;
+}
+
+
+th:nth-of-type(2) {
+    background: hsl(42deg 78% 54%);
+    border: 1px solid hsl(45deg 99% 51%);
+
+}
